@@ -7,7 +7,7 @@
 }
 
 .button-primary {
-    @apply bg-[#6D95FC] uppercase px-3 py-2 text-white hover:bg-blue-600 transition-colors duration-300;
+    @apply bg-[#6D95FC] uppercase px-3 py-2 text-black hover:bg-blue-600 transition-colors duration-300;
 }
 
 input,
