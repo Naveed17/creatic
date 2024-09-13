@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-primary-outline {
+    @apply border-2 px-3 py-2 uppercase font-light text-sm border-primary rounded-sm text-white bg-transparent hover:bg-primary transition-colors duration-300;
+}
+
+.button-primary {
+    @apply bg-[#6D95FC] uppercase px-3 py-2 text-white hover:bg-blue-600 transition-colors duration-300;
+}
+
+input,
+textarea {
+    @apply bg-transparent border-white border p-2 rounded
+}
+
+.slick-slide {
+    transform: scale(0.8);
+    transition: all 0.4s ease-in-out;
+}
+
+.slick-slide img {
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+    transform: scale(1.1);
+}
+
+.testimonials::before {
+    content: url('/static/images/testmon-Image-1.svg');
+    position: absolute;
+    z-index: 100000;
+    left: calc(-100% - 200px);
+    top: 0
+}
+
+.testimonials::after {
+    content: url('/static/images/testmon-Image-2.svg');
+    position: absolute;
+    z-index: 100000;
+    right: calc(-100% - 200px);
+    top: 0
+}
