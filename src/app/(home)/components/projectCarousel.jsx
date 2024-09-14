@@ -46,7 +46,7 @@ export default function ProjectCarousel() {
         <div className='relative'>
             <Slider ref={carouselRef} {...settings}>
                 {[...data, ...data].map((item, index) => (
-                    <div key={item.id} className='relative h-[400px] w-[500px] '>
+                    <div key={`img-${index}`} className='relative h-[400px] w-[500px] '>
                         <Image src={`/static/images/${item}.svg`} className='object-cover' fill alt={item} />
                     </div>
                 ))}
