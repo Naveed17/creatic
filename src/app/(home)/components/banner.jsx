@@ -21,7 +21,7 @@ function Banner() {
                         Get In Touch
                     </button>
                 </div>
-                <div className="md:col-span-5 relative md:-mt-12">
+                <div className="hidden md:block md:col-span-5 relative md:-mt-12">
                     <Image
                         priority
                         src="/static/images/banner-img.png"

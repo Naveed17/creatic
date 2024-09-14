@@ -6,7 +6,7 @@ import React from 'react'
 function GetInTouch() {
     return (
         <div className='container'>
-            <div className="flex gap-16 pt-32">
+            <div className="flex md:flex-row flex-col gap-16 pt-32">
                 <div className="flex-1">
                     <Typography variant='h1' component='h2'>Get in <span className='text-primary'>Touch</span></Typography>
                     <Typography className='mt-4'>Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,  Neque porro elit NeDque porro  </Typography>
@@ -51,7 +51,7 @@ function GetInTouch() {
                     </ul>
                 </div>
                 <div className="flex-1">
-                    <form className='flex flex-col gap-4 bg-[linear-gradient(179.96deg,_#12192B_0.03%,_rgba(18,_25,_43,_0)_109.04%)] p-8 rounded-lg'>
+                    <form className='flex flex-col gap-4 bg-[linear-gradient(179.96deg,_#12192B_0.03%,_rgba(18,_25,_43,_0)_109.04%)] p-4 md:p-8 rounded-lg'>
                         <div className="flex flex-col gap-1">
                             <label htmlFor="name" className='uppercase'>YOUR NAME</label>
                             <input type="text" />

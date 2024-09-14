@@ -6,7 +6,7 @@ import React from 'react'
 
 function Testimonials() {
     return (
-        <div className='max-w-[400px] w-full p-16 pb-52 px-8 mx-auto relative testimonials'>
+        <div className='max-w-[400px] w-full p-16  md:pb-52 px-8 mx-auto relative testimonials'>
             <div className="max-w-[300px] text-center">
                 <Typography variant='h1' component='h2' className='uppercase'>
                     WHAT <span className='text-primary'>our</span> CLIENTS SAY?

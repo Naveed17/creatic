@@ -10,7 +10,7 @@ function WhyUs() {
                 <Typography className='text-center uppercase'>why us?</Typography>
                 <hr className='min-w-[70px] border-t-2 border-t-primary' />
             </div>
-            <div className="flex gap-16">
+            <div className="flex flex-col md:flex-row gap-16">
                 <div className="inline-flex items-start flex-1 flex-col">
                     <Typography variant='h1' component='h2'>
                         25 years of <span className='text-primary'>experience</span> as a creative agency

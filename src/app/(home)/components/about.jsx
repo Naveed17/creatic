@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="bg-[linear-gradient(93.72deg,_rgba(109,_149,_252,_0.26)_6.51%,_rgba(109,_149,_252,_0)_57.56%)]">
             <div className="container flex-col flex md:flex-row items-center gap-32">
-                <div class="relative flex-1 h-[700px]">
+                <div class="relative flex-1 h-[700px] hidden md:block">
                     <Image
                         priority
                         src="/static/images/robot.svg"

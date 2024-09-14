@@ -9,12 +9,12 @@ function Footer() {
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <footer className='flex flex-col gap-4 pb-10 items-center max-w-[600px] mx-auto mt-32 text-center'>
+        <footer className='container flex flex-col gap-4 pb-10 items-center max-w-[600px] mx-auto mt-32 text-center'>
             <Link href='/'>
                 <Image src='/static/images/logo.svg' width={100} height={100} alt='logo' />
             </Link>
             <hr className='min-w-28 border-t-2 border-t-white' />
-            <ul className='flex items-center gap-8 '>
+            <ul className='flex flex-wrap justify-center items-center gap-8 '>
                 <li>
                     <Link href='/' className='text-primary'>
                         Categories

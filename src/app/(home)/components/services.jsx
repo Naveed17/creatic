@@ -21,7 +21,7 @@ function Services() {
                     </button>
                 </div>
                 <div className="flex-1">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="rounded p-6 bg-[linear-gradient(-2.42deg,_rgba(109,_149,_252,_0.55)_-180.08%,_rgba(109,_149,_252,_0)_67.52%)]">
                             <div className="flex flex-col items-center gap-4">
                                 <ReactSvg className="mx-auto" path="ic-video" width={64} height={64} />
