@@ -23,7 +23,7 @@ function Header() {
 
 
     return (
-        <header class="bg-gradient-to-l from-[#101010] via-transparent">
+        <header className="bg-gradient-to-l from-[#101010] via-transparent">
             <nav className='flex justify-between items-center container py-4 '>
                 <Link href='/'>
                     <Image src='/static/images/logo.svg' width={100} height={100} alt='logo' />

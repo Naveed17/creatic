@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Banner() {
     return (
-        <div class="bg-[linear-gradient(268.78deg,_rgba(109,_149,_252,_0.67)_-53.1%,_rgba(109,_149,_252,_0)_30.41%)]">
+        <div className="bg-[linear-gradient(268.78deg,_rgba(109,_149,_252,_0.67)_-53.1%,_rgba(109,_149,_252,_0)_30.41%)]">
             <div className="container grid mt-32 grid-cols-1 md:grid-cols-12">
                 <div className="md:col-span-7 flex flex-col gap-8 pb-32">
                     <Typography className='text-primary font-light uppercase'>Welcome to creatic</Typography>

@@ -55,7 +55,7 @@ export default function ProjectCarousel() {
                 {[...data, ...data].map((item, index) => (
                     <div
                         onClick={() => carouselRef.current.slickGoTo(index)}
-                        key={item.id} className={`w-2 h-2  border-2 border-transparent ${index === currentIndex ? 'bg-white !border-[#101010] ring-2 ring-primary' : 'bg-white'}`} />
+                        key={index} className={`w-2 h-2  border-2 border-transparent ${index === currentIndex ? 'bg-white !border-[#101010] ring-2 ring-primary' : 'bg-white'}`} />
                 ))}
             </div>
         </div>

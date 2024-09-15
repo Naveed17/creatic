@@ -6,7 +6,7 @@ function Services() {
     return (
         <div className='container'>
             <div className="flex flex-col md:flex-row gap-32 py-32">
-                <div class="flex-1 flex flex-col gap-4">
+                <div className="flex-1 flex flex-col gap-4">
                     <Typography className='text-primary font-light uppercase'>our services</Typography>
                     <Typography className='uppercase md:max-w-[500px]' variant='h1' component='h1'>
                         Experience the power of <span className='text-primary'>innovation.</span>
