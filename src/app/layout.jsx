@@ -9,7 +9,7 @@ export const metadata = {
   title: "Creatic",
   description: "WE ARE CREATIVE DESIGN AGENCY",
   openGraph: {
-    images: ["/static/images/banner-img.png"],
+    images: "/next.svg",
   },
 
 };
