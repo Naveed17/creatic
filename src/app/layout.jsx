@@ -1,8 +1,10 @@
 import { Poppins } from "next/font/google";
+import ogImage from "@public/static/images/logo.svg";
 import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Header, Footer } from "@components/base";
+console.log(ogImage);
 // make og meta tag
 export const metadata = {
   metadataBase: new URL("https://creatic-rho.vercel.app/"),
@@ -11,7 +13,23 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: '/static/images/logo.svg',
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height,
+        alt: "Creatic",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Creatic",
+    description: "WE ARE CREATIVE DESIGN AGENCY",
+    images: [
+      {
+        url: ogImage.src,
+        width: 1200,
+        height: 630,
+        alt: "Creatic",
       },
     ],
   },
