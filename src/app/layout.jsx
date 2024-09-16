@@ -10,8 +10,6 @@ export const metadata = {
   description: "WE ARE CREATIVE DESIGN AGENCY",
   openGraph: {
     images: "/static/images/banner-img.png",
-    locale: "en_US",
-    type: "website",
   },
 
 };
