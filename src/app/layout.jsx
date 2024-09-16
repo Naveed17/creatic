@@ -6,11 +6,17 @@ import { Header, Footer } from "@components/base";
 // make og meta tag
 export const metadata = {
   metadataBase: new URL("https://creatic-rho.vercel.app/"),
-  title: "creatic",
+  title: "Creatic",
   description: "WE ARE CREATIVE DESIGN AGENCY",
   openGraph: {
-    images: "/static/images/logo.svg",
+    title: "Creatic",
+    description: "WE ARE CREATIVE DESIGN AGENCY",
+    siteName: "Creatic",
+    images: "/static/images/banner-img.png",
+    locale: "en_US",
+    type: "website",
   },
+
 };
 const poppins = Poppins({
   subsets: ['latin'],
